@@ -1,0 +1,420 @@
+/*************************************/
+/* BELOW 1340 FOR SMALL LAPTOP */
+/* ************************************ */
+@media (max-width: 84em) {
+  .sofa-img {
+    width: 100%;
+  }
+}
+
+/*************************************/
+/* BELOW 1200  */
+/* ************************************ */
+
+@media (max-width: 75em) {
+  .slider-text p {
+    font-size: 4rem;
+    margin-bottom: 3rem;
+  }
+
+  /* .pricing {
+    gap: 3rem;
+    margin: auto;
+  }
+  .pricing-img {
+    width: 90%;
+    height: 20rem;
+  } */
+  .new-arrival-tag {
+    right: 5%;
+  }
+  .cards img {
+    width: 105rem;
+  }
+}
+
+/*************************************/
+/* BELOW 1100 */
+/* ************************************ */
+
+@media (max-width: 71em) {
+  .furniture-box {
+    gap: 5rem;
+  }
+  .slider-text {
+    padding: 0;
+  }
+  .pricing-img {
+    width: 15rem;
+    height: 15rem;
+  }
+  .plan-name {
+    font-size: 1.5rem;
+    display: inline-block;
+  }
+  .plan-price {
+    font-size: 1.3rem;
+  }
+  .plan-delivery {
+    font-size: 1.1rem;
+  }
+  .new-arrival-tag {
+    right: 4%;
+  }
+  .new-arrival-tag-1 {
+    right: 20%;
+  }
+  .new-arrival-img {
+    width: 8rem;
+  }
+  .pricing {
+    gap: 2rem;
+  }
+  .cards img {
+    width: 83rem;
+  }
+  .plan-name {
+    letter-spacing: -0.5px;
+  }
+}
+
+/*************************************/
+/* BELOW 920px */
+/* ************************************ */
+@media (max-width: 58em) {
+  .icn-person {
+    display: none;
+  }
+  .new-arrival-tag {
+    right: 0%;
+    top: 13%;
+  }
+  .new-arrival-tag-1 {
+    right: 14%;
+  }
+  .text-delivery {
+    margin-right: 2rem;
+  }
+
+  .search {
+    display: none;
+  }
+  .icon-outline[name="search-outline"] {
+    display: inline-block;
+  }
+  .logo {
+    padding-left: 13rem;
+  }
+  /* .div-logo {
+    justify-self: center;
+  } */
+  .plan-price {
+    letter-spacing: -1.5px;
+  }
+  .furniture-img {
+    width: 6rem;
+    height: 6rem;
+  }
+  .furniture-box {
+    gap: 3rem;
+  }
+
+  .slider-text p {
+    font-size: 4rem;
+  }
+  .btn:link,
+  .btn:visited {
+    font-size: 2rem;
+  }
+  .cards img {
+    width: 64rem;
+  }
+}
+/*************************************/
+/* BELOW 736px */
+/* ************************************ */
+@media (max-width: 46em) {
+  .header {
+    margin-bottom: 0%;
+  }
+  .logo {
+    padding-left: 7rem;
+  }
+  .btn-mobile-nav {
+    display: block;
+  }
+  .main-nav {
+    background-color: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    top: 0%;
+    left: -3%;
+    width: 60%;
+    height: 60vh;
+    transform: translateX(-100%);
+    z-index: 1;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    padding-left: 2rem;
+    transition: all 0.5s ease-in;
+    opacity: 0;
+    pointer-events: none;
+    visibility: none;
+  }
+  .login {
+    display: inline-block;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0%);
+  }
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+  .btn-mobile-nav {
+    z-index: 9999;
+  }
+  .nav-list {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .section-wdb {
+    grid-template-columns: 1fr;
+  }
+  .popular-furniture {
+    grid-template-columns: 1fr;
+  }
+  .popular-img:nth-child(4) {
+    grid-row: 3;
+  }
+  .others-view {
+    padding: 5rem;
+  }
+  .footer-decription {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 3rem;
+  }
+  .pricing {
+    row-gap: 5rem;
+    grid-template-columns: 1fr 1fr;
+  }
+  .pricing-img {
+    width: 25rem;
+    height: 22rem;
+  }
+  .new-arrival-img {
+    width: 10rem;
+  }
+  .new-arrival-tag {
+    top: 14%;
+    right: -5%;
+    transform: translateY(-50%);
+  }
+}
+
+/*************************************/
+/* BELOW 640px */
+/* ************************************ */
+@media (max-width: 40em) {
+  .slider-text p {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  .logo {
+    padding-left: 4rem;
+  }
+  .icon-outline {
+    padding: 0.7rem;
+  }
+  .first-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .section-title {
+    font-size: 2rem;
+  }
+  .section-title::before {
+    width: 3rem;
+    margin: 0 10px 4px 0;
+  }
+  .section-title::after {
+    width: 3rem;
+    margin: 0 0 4px 10px;
+  }
+  .pricing-img {
+    width: 15rem;
+    height: 15rem;
+  }
+  .plan-name {
+    font-size: 1.5rem;
+    display: inline-block;
+  }
+  .plan-price {
+    font-size: 1.3rem;
+  }
+  .plan-delivery {
+    font-size: 1.1rem;
+  }
+  .new-arrival-tag {
+    right: 0%;
+  }
+  .new-arrival-tag-1 {
+    right: 12%;
+  }
+  .new-arrival-img {
+    width: 8rem;
+  }
+  .pricing {
+    gap: 2rem;
+  }
+  .big-chair {
+    height: 44rem;
+  }
+  .popular-other {
+    align-items: flex-start;
+  }
+  .others-furniture p {
+    font-size: 1.2rem;
+  }
+  .others-furniture span {
+    font-size: 1.5rem;
+  }
+  .others-view {
+    padding: 4rem 1rem 4rem 1rem;
+  }
+  .others-view p {
+    font-size: 1.5rem;
+  }
+  .section-footer {
+    padding: 3rem;
+  }
+  .cards img {
+    width: 43rem;
+    height: 3rem;
+  }
+  .footer-icon {
+    font-size: 2rem;
+    padding-right: 0.5rem;
+  }
+}
+/*************************************/
+/* BELOW 500px */
+/* ************************************ */
+@media (max-width: 31em) {
+  .slider-text p {
+    line-height: 2;
+    margin-bottom: 4rem;
+    margin-top: 9rem;
+  }
+  .icon-outline {
+    font-size: 2.5rem;
+  }
+  .logo {
+    padding-left: 1rem;
+  }
+
+  .section-hero {
+    padding: 0 0 5.6rem 0;
+  }
+  .slider-text p {
+    font-size: 2rem;
+  }
+  .btn:link,
+  .btn:visited {
+    font-size: 1.5rem;
+    padding: 1rem 1.5rem;
+  }
+  .section-furniture,
+  .section-decor {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .heading-secondary {
+    font-size: 2.5rem;
+  }
+  .second-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .section-featured {
+    padding: 0 0 5.6rem 0;
+  }
+  .pricing-section {
+    margin: 0 1rem;
+  }
+  .section-title::before {
+    width: 2rem;
+    margin: 0 6px 4px 0;
+  }
+  .section-title::after {
+    width: 2rem;
+    margin: 0 0 4px 6px;
+  }
+  .pricing {
+    row-gap: 4rem;
+  }
+  .pricing-plan {
+    gap: 1rem;
+  }
+  .new-arrival-tag-1 {
+    right: -7%;
+  }
+  .pricing-section {
+    margin: 0px 2rem;
+  }
+  .extra-info {
+    padding: 1.5rem;
+  }
+  .section-wdb {
+    gap: 2.5rem;
+    margin: 0 2rem;
+  }
+  .popular-section {
+    margin: 9.6rem 2rem 0 2rem;
+  }
+  .popular-furniture {
+    padding: 0;
+    row-gap: 2.5rem;
+  }
+  .big-chair {
+    height: 33rem;
+  }
+  .sofa-img {
+    height: 16rem;
+  }
+  .others-view a {
+    font-size: 1.5rem;
+    padding: 0.9rem 2.2rem;
+  }
+  .others-view span {
+    font-size: 2.5rem;
+  }
+  .cards img {
+    width: 30rem;
+    height: 2rem;
+  }
+  .section-footer {
+    padding: 2rem;
+  }
+  .footer-columns a,
+  .footer-columns p {
+    font-size: 1rem;
+  }
+  .footer-title {
+    font-size: 1.2rem;
+  }
+  .footer-star {
+    font-size: 1.2rem;
+  }
+  .footer-icon {
+    font-size: 1rem;
+  }
+}
